@@ -537,4 +537,7 @@ ehthumbs_vista.db
 
 # Windows shortcuts
 
+# Extras
+.env
+
 # End of https://www.toptal.com/developers/gitignore/api/python,django,venv,virtualenv,visualbasic,visualstudiocode,intellij,bluej,windows,macos,linux
