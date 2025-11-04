@@ -108,3 +108,6 @@ class BookTestCase(TestCase):
 	def test_str(self):
 		expected_string = "Doe, J.  (2024)  \"A title\"  ISBN 1234567890123."
 		self.assertEqual(expected_string, str(self.book))
+
+	def test_made_to_fail(self):
+		self.fail("This test is made to fail!")
